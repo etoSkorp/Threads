@@ -1,10 +1,12 @@
+package parser;
+
 import java.io.*;
 import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Parser {
-    ArrayList<String> parse(File file) {
+    public ArrayList<String> parse(File file) {
 
         ArrayList<String> lines = new ArrayList<>();
 

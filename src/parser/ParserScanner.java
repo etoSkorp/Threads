@@ -1,3 +1,5 @@
+package parser;
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -5,7 +7,7 @@ import java.util.Scanner;
 
 public class ParserScanner {
 
-    ArrayList<String> parse(File file) {
+    public ArrayList<String> parse(File file) {
 
         ArrayList<String> lines = new ArrayList<>();
 
